@@ -1,4 +1,4 @@
-FROM geonetwork:2.10.4
+FROM doublebyte/geonetwork-2
 
 RUN apt-get update && apt-get install -y postgresql-client
 
